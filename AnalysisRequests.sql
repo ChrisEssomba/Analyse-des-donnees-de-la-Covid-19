@@ -1,7 +1,7 @@
 'Suprimer la contrainte sur les valeurs null de la colonne continent'
 ALTER TABLE coviddeaths
 ALTER COLUMN continent
-DROP NOT NULL;
+DROP NOT NULL; 
 
 --NB: les valeurs new sont en jours
 
