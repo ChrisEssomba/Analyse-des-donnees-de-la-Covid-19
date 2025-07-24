@@ -6,6 +6,12 @@ Ce projet illustre une chaîne complète d’analyse de données en utilisant **
 
 ## 📁 Structure du projet
 
+├── Analyse/
+
+│ ├── AnalysisRequests.sql - Intégration et analyse SQL
+
+│ └── owid-covid-data.csv - Jeu de données combiné (Our World in Data)
+
 ├── Nettoyage_Données/
 
 │ ├── covidDeathsCleaning.ipynb - Traitement des données de mortalité
@@ -20,19 +26,9 @@ Ce projet illustre une chaîne complète d’analyse de données en utilisant **
 
 │ └── covidVacCleaned.csv - Données de vaccination traitées
 
-│
-├── Analyse/
-
-│ ├── AnalysisRequests.sql - Intégration et analyse SQL
-
-│ └── owid-covid-data.csv - Jeu de données combiné (Our World in Data)
-│
-
 ├── Visualisation/
 
 │ └── RapportDeProjetCovid.pdf - Rapport d'analyse avec liens Tableau
-
-
 
 ---
 
