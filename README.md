@@ -4,34 +4,6 @@ Ce projet illustre une chaîne complète d’analyse de données en utilisant **
 
 ---
 
-## 📁 Structure du projet
-
-├── Analyse/
-
-│ ├── AnalysisRequests.sql - Intégration et analyse SQL
-
-│ └── owid-covid-data.csv - Jeu de données combiné (Our World in Data)
-
-├── Nettoyage_Données/
-
-│ ├── covidDeathsCleaning.ipynb - Traitement des données de mortalité
-
-│ ├── covidVaccinationCleaning.ipynb - Traitement des données de vaccination
-
-│ ├── coviddeaths.csv - Données brutes de mortalité
-
-│ ├── covidVac.csv - Données brutes de vaccination
-
-│ ├── coviddeathsCleaned.csv - Données de mortalité traitées
-
-│ └── covidVacCleaned.csv - Données de vaccination traitées
-
-├── Visualisation/
-
-│ └── RapportDeProjetCovid.pdf - Rapport d'analyse avec liens Tableau
-
----
-
 ## ⚙️ Technologies utilisées
 
 - **Python** : Nettoyage et prétraitement des données (Pandas, Jupyter Notebooks)
@@ -62,6 +34,35 @@ L’étape finale du projet est la narration visuelle via **Tableau**. Le rappor
 
 📄 Le résumé de l’analyse est disponible ici :  
 `Visualization/RapportDeProjetCovid.pdf`
+
+---
+
+
+## 📁 Structure du projet
+
+├── Analyse/
+
+│ ├── AnalysisRequests.sql - Intégration et analyse SQL
+
+│ └── owid-covid-data.csv - Jeu de données combiné (Our World in Data)
+
+├── Nettoyage_Données/
+
+│ ├── covidDeathsCleaning.ipynb - Traitement des données de mortalité
+
+│ ├── covidVaccinationCleaning.ipynb - Traitement des données de vaccination
+
+│ ├── coviddeaths.csv - Données brutes de mortalité
+
+│ ├── covidVac.csv - Données brutes de vaccination
+
+│ ├── coviddeathsCleaned.csv - Données de mortalité traitées
+
+│ └── covidVacCleaned.csv - Données de vaccination traitées
+
+├── Visualisation/
+
+│ └── RapportDeProjetCovid.pdf - Rapport d'analyse avec liens Tableau
 
 ---
 
